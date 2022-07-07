@@ -1,5 +1,28 @@
+.b-text {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 800;
+}
+
+.b-text--s {
+    font-weight: 600;
+    font-size: 14px;
+    color: #BABABA;
+}
+
+.b-text--l {
+    font-size: 18px;
+    color: #BABABA;
+}
+
+.b-text--xl {
+    font-weight: 800;
+    font-size: 22px;
+}
+
 .b-header {
     background-image: url(assets/bmw-background.jpg);
+    background-size: cover;
     height: 650px;
     position: relative;
 }
@@ -94,4 +117,39 @@ body {
     margin: 0;
     font-family: Arial;
     font-weight: 400;
+}
+
+.b-tab {
+    display: flex;
+    align-items: center;
+}
+
+.b-tab__item {
+    margin-top: 4px;
+    padding: 32px 34px 32px 34px;
+    color: #BABABA;
+    border-bottom: 1px solid #BABABA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.b-tab__item--selected {
+    margin-top: 0;
+    color: #333333;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 20px;
+    border-bottom: 4px solid #1c69d4;
+}
+
+
+.b-gallery {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.b-gallery__item {
+    width: 25%;
 }
